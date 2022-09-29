@@ -1,0 +1,14 @@
+
+POST http://localhost:7777/test/post HTTP/1.1
+Accept: */*
+content-type: application/json
+
+{
+    "name": 123
+}
+
+### 
+Get http://localhost:7777/test/get?name=123 HTTP/1.1
+
+### 
+GET http://localhost:7777 HTTP/1.1
